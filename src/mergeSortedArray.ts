@@ -1,4 +1,4 @@
-function getValueFromIndex(collection: number[], index: number) {
+export function getValueFromIndex(collection: number[], index: number) {
   if (index < 0 || index > collection.length - 1) {
     return Number.MAX_VALUE;
   } else {
@@ -6,7 +6,7 @@ function getValueFromIndex(collection: number[], index: number) {
   }
 }
 
-function merge(collection_1: number[], collection_2: number[], collection_3: number[]): number[] {
+export function merge(collection_1: number[], collection_2: number[], collection_3: number[]): number[] {
   let result: number[] = [];
   let MaxIterator: number = collection_1.length + collection_2.length + collection_3.length;
 
