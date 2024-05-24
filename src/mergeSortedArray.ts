@@ -32,6 +32,6 @@ export function merge(collection_1: number[], collection_2: number[], collection
 
 // call method
 let collection_1 = [1, 2, 5, 9, 10, 15, 20, Number.MAX_VALUE];
-let collection_2 = [Number.MAX_VALUE, 16, 8 ,2, 1, 0];
+let collection_2 = [Number.MAX_VALUE, 16, 8 ,2, 1, 0]; // always sorted max to min
 let collection_3 = [2, 3, 8, 13];
 console.log(merge(collection_1, collection_2, collection_3));
