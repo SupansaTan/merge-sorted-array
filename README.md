@@ -1,5 +1,8 @@
 # merge-sorted-array project
-## Running project
+## Setup project
+Run `npm install` to install dependency
+
+## Executing code
 Run `npm start`
 
 ## Running unit tests
